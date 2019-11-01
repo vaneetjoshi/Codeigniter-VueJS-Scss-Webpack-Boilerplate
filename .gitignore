@@ -1,0 +1,23 @@
+# Node modules
+node_modules
+package-lock.json
+
+# Adonis directory for storing tmp files
+tmp
+
+# Environment variables, never commit this file
+.env
+.DS_Store
+
+# The development sqlite file
+database/development.sqlite
+
+# VSCode & Webstorm history directories
+.history
+.idea
+
+/nbproject/private/
+
+/dwccache
+
+/databaseBackup
